@@ -1,3 +1,84 @@
+* {
+    
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
 body{
-    color: green;
+    background-color: #ffff;
+}
+
+.postbody {
+    display: flexbox;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    
+}
+
+.posticons {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.postheader {
+    display: flex;
+    flex-direction: row;
+    padding: 17px;
+}
+
+.htmlicon {
+    padding-top: 4px;
+    
+}
+
+.html5 {
+    padding-left: 5px;
+    font-weight: bolder;
+    
+}
+
+.rigo {
+    position: absolute;
+    top: 35px;
+    padding-left: 30px;
+    color: lightgrey;
+    
+}
+
+.threedots{
+    padding-left: 14.5rem;
+    padding-top: 5px;
+    
+}
+
+.postimg{
+    width: 350px;
+    height: 350px;
+}
+
+.save {
+    padding-left: 12rem;
+}
+
+.share {
+    padding-left: 1rem;
+
+}
+
+.comment {
+    padding-left: 1rem;
+    
+}
+
+.likedby {
+    padding-top: 15px;
+    font-size: small;
+
+}
+
+.lorem{
+    padding-top: 15px;
+    font-size: small;
 }
